@@ -1,0 +1,12 @@
+[
+  {
+    "model": "iPhone 16 Pro Max",
+    "price": 85000000,
+    "image": "https://res.cloudinary.com/demo/image/upload/v1/sample.jpg"
+  },
+  {
+    "model": "iPhone 15 Pro",
+    "price": 62000000,
+    "image": "https://res.cloudinary.com/demo/image/upload/v1/sample.jpg"
+  }
+]
