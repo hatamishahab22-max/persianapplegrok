@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PersianApple - آیفون اصل</title>
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PersianApple</h1>
+      <p>۱۵ سال سابقه فروش آیفون اصل در ایران</p>
+    </header>
 
+    <section id="products"></section>
+
+    <section class="admin">
+      <h2>اضافه کردن محصول جدید</h2>
+      <input type="file" id="imageInput" accept="image/*"/>
+      <button onclick="uploadImage()">آپلود به Cloudinary</button>
+      <div id="uploadResult"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
