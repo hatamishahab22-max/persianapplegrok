@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: persianapple
+    env: static
+    staticSites:
+      - name: persianapple-site
+        buildCommand: echo "Build complete"
+        outputDir: .
+    plan: free
